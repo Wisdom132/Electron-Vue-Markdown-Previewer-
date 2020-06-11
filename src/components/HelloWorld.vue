@@ -36,7 +36,7 @@ export default {
         overflowY: "auto"
       },
       content: "",
-      height: window.innerHeight - 100
+      height: window.innerHeight - 90
     };
   },
   methods: {
