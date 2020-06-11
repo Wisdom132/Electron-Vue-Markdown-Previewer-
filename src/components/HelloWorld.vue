@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       styleObject: {
-        height: window.innerHeight - 100 + "px",
+        height: window.innerHeight - 90 + "px",
         color: "black",
         overflowY: "auto"
       },
