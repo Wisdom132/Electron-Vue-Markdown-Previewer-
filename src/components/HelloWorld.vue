@@ -15,7 +15,7 @@
         </div>
         <div class="col-md-6">
           <h3>Previewer</h3>
-          <div class="card text-left" :style="styleObject">{{content}}</div>
+          <div v-decode :key="content" class="card text-left" :style="styleObject">{{content}}</div>
         </div>
       </div>
     </div>
@@ -42,7 +42,6 @@ export default {
   methods: {
     editorInit() {
       require("brace/ext/language_tools");
-      require("brace/mode/html");
       require("brace/mode/markdown");
       require("brace/theme/dracula");
     }
