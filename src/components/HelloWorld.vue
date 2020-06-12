@@ -15,6 +15,7 @@
         </div>
         <div class="col-md-6">
           <h3>Previewer</h3>
+          <!-- <div v-decode :key="content" class="card text-left" :style="styleObject">{{content}}</div> -->
           <div v-decode :key="content" class="card text-left" :style="styleObject">{{content}}</div>
         </div>
       </div>
